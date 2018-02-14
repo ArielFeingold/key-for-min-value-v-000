@@ -9,7 +9,7 @@ def key_for_min_value(name_hash)
     lowest = 1000
     name_hash.each do |item, price|
       if price < lowest
-        lowest == price
+        lowest = price
       end
     end
     lowest
